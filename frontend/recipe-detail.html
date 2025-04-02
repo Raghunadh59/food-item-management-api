@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="app.js"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-8">
+        <h1 id="recipe-name" class="text-3xl font-bold mb-6">Recipe Name</h1>
+        <div id="recipe-detail" class="space-y-4">
+            <p id="ingredients" class="text-sm text-gray-700"></p>
+            <p id="instructions" class="text-sm text-gray-700"></p>
+            <p id="prep_time" class="text-sm text-gray-700"></p>
+            <p id="cook_time" class="text-sm text-gray-700"></p>
+        </div>
+        <button id="edit-btn" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">Edit Recipe</button>
+    </div>
+    <button id="delete-btn" class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition">Delete Recipe</button>
+</body>
+</html>
