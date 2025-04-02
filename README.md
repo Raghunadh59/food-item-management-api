@@ -97,19 +97,17 @@ POST /api/food-items/
 ## 🏗️ Project Structure  
 
 ```
-food-item-management-api/
-│── food_management/         # Main Django project folder
-│   ├── settings.py          # Django settings
-│   ├── urls.py              # Project-level URL configurations
-│   ├── wsgi.py              # WSGI application
-│── food_items/              # Django app for food items
-│   ├── models.py            # Database models
-│   ├── views.py             # API logic
-│   ├── serializers.py       # DRF Serializers
-│   ├── urls.py              # App-level routes
-│── requirements.txt         # Dependencies list
-│── manage.py                # Django management script
+food_management/
+│── food_management/         # Django project folder
+│── recipes/                 # Django app (previously food_items?)
+│   ├── db.sqlite3           # SQLite database
+│   ├── manage.py            # Django management script
+│── frontend/                # (Future) Frontend code
+│── .gitignore               # Git ignore file
+│── LICENSE.md               # License file
 │── README.md                # Documentation
+│── requirements.txt         # Dependencies list
+
 ```
 
 ---
